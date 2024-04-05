@@ -16,7 +16,7 @@
 
 SELECT 
     year, 
-    count(name)
+    count(*)
 FROM teams 
 GROUP BY year
 
